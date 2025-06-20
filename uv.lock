@@ -53,11 +53,6 @@ dependencies = [
     { name = "scikit-learn" },
 ]
 
-[package.dev-dependencies]
-dev = [
-    { name = "draw-scikit-tree" },
-]
-
 [package.metadata]
 requires-dist = [
     { name = "graphviz", specifier = ">=0.21" },
@@ -67,7 +62,7 @@ requires-dist = [
 ]
 
 [package.metadata.requires-dev]
-dev = [{ name = "draw-scikit-tree", editable = "." }]
+dev = []
 
 [[package]]
 name = "fonttools"

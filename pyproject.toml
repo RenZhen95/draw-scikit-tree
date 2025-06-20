@@ -18,10 +18,5 @@ build-backend = "hatchling.build"
 [tool.hatch.build.targets.wheel]
 packages = ["src/DrawScikitTree"]
 
-[tool.uv.sources]
-draw-scikit-tree = { workspace = true }
-
 [dependency-groups]
-dev = [
-    "draw-scikit-tree",
-]
+dev = []
