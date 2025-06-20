@@ -1,6 +1,6 @@
 ﻿<h1>
   <picture>
-    <img alt="DrawScikitTreeLogo" src="icons/Logo.png" width="550px">
+    <img alt="DrawScikitTreeLogo" src="icons/Logo.png" width="750px">
   </picture>
 </h1>
 
