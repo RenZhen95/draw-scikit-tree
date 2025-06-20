@@ -1,6 +1,6 @@
 ﻿<h1>
   <picture>
-    <img alt="DrawScikitTreeLogo" src="icons/icon.png" width="550px">
+    <img alt="DrawScikitTreeLogo" src="icons/Logo.png" width="550px">
   </picture>
 </h1>
 
@@ -47,7 +47,7 @@ graph = graphviz.Source(new_dot_data)
 display(graph)
 ```
 <picture>
-  <img alt="ExampleTree" src="icons/example.png" width="550px">
+  <img alt="ExampleTree" src="icons/example_tree.png" width="550px">
 </picture>
 
 For more examples check out the [examples](https://github.com/RenZhen95/draw-scikit-tree/tree/master/examples).
