@@ -24,6 +24,6 @@ class Edge:
         self.End = linesplit[1]
 
     def __str__(self):
-        _printOut = f"=== === ===\nEdge :: {self.line}\n--- --- ---\n"
+        _printOut = f"Edge :: {self.line}"
 
         return _printOut
