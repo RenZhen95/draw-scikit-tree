@@ -3,6 +3,9 @@ name = "draw-scikit-tree"
 version = "0.1.0"
 description = "A simple interface to modify scikit-learn's generated DOT representation of a decision tree."
 readme = "README.md"
+authors = [
+    { name = "RenZhen95", email = "j-liaw@hotmail.com" }
+]
 requires-python = ">=3.13"
 dependencies = [
     "graphviz>=0.21",
@@ -10,6 +13,10 @@ dependencies = [
     "pandas>=2.3.0",
     "scikit-learn>=1.7.0",
 ]
+license = {file = "LICENSE"}
+
+[project.urls]
+homepage = "https://github.com/RenZhen95/draw-scikit-tree/"
 
 [build-system]
 requires = ["hatchling"]
